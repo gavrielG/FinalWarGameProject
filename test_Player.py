@@ -40,6 +40,14 @@ class TestPlayer(TestCase):
              player4.set_hand('deck')
         #Testing the set hand answer is None
         self.assertIsNone(player4.set_hand(deck))
+        
+        
+    # @mock.patch('DeckOfCards.DeckOfCards.deal_one', return_value=Card(1,'Clubs'))
+    # def test_set_hand_mock(self, mock_deal_one):
+    #     player5=Player('gavriel',10)
+    #     deck=DeckOfCards()
+    #     player5.set_hand(deck)
+    #     self.assertTrue('Ace of Clubs' in player5.player_deck)
 
 
     def test_get_card(self):
