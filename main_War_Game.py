@@ -8,7 +8,6 @@ print(f"{new.player.playername}'s hand", new.player.player_deck)
 print(len(new.player.player_deck), "cards\n")
 print(f"{new.player2.playername}'s hand", new.player2.player_deck)
 print(len(new.player2.player_deck), "cards\n")
-print("Bank", DeckOfCards(), "\n")
 
 print("Starting Game!")
 for i in range(10):
